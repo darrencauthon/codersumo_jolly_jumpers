@@ -11,7 +11,7 @@ describe JJ do
   ].each do |example|
     describe "a good jolly jumper" do
       it "should return true" do
-        JJ.is_jolly(example).must_equal true
+        JJ.is_jolly?(example).must_equal true
       end
     end
   end
@@ -24,7 +24,7 @@ describe JJ do
   ].each do |example|
     describe "a good jolly jumper" do
       it "should return true" do
-        JJ.is_jolly(example).must_equal false
+        JJ.is_jolly?(example).must_equal false
       end
     end
   end
